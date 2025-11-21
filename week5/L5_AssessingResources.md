@@ -66,7 +66,7 @@ Net Worth: [Assets - Liabilties]
 Section 5: Gather your External Resources that will help start this business
 (Follow the steps on Slide 4: "Round Up External Resources")
 
-External Resources
+External Resourceshn
 
 1. [External Resource]
 2. Wholesale stores for cups, napkins, pitchers, and sign
