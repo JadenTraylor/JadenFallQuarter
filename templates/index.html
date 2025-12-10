@@ -1,13 +1,7 @@
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap-5.3.8-dist/css/bootstrap.min.css') }}">
-    <title>Document</title>
-</head>
-    <script src="{ url_for('static', filename='bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js') }}"></script> 
-<body>
-</html>
-<body>
+{% extends "base.html" %}
+{% block title %}Home - Trainer Finder{% endblock %}
+
+{% block navbar %}
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Trainer Finder</a> <div class="collapse navbar-collapse"> <ul class="navbar-nav me-auto">
@@ -29,14 +23,16 @@
         </div>
     </div>
 </nav>
+{% endblock %}
 
 
-
+{% block content %}
         <div class="card" style="width: 18rem;">
-            <img src="football.jpeg" class="card-img-top" alt="Profile">
+            <img src="static/images/football.jpg" class="card-img-top" alt="Profile">
             <div class="card-body">
                 <h5 class="card-title">Ja'Den Traylor</h5>
-                <p class="card-text">Training</p>
+                <p class="card-text">Recruiter</p>
                 <a href="#" class="btn btn-primary">View Profile</a>
             </div>
         </div>
+{% endblock %}
