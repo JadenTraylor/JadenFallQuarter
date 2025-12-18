@@ -5,7 +5,14 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
 
-        <a class="navbar-brand" href="#">Trainer Finder</a>
+        <a class="navbar-brand d-flex align-items-center" href="/">
+            <img src="{{ url_for('static', filename='images/finderlogo.png') }}"
+                 alt="Trainer Finder Logo"
+                 width="30"
+                 height="30"
+                 class="me-2">
+            Trainer Finder
+        </a>
 
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNav" aria-controls="navbarNav"
@@ -36,11 +43,47 @@
 
 {% block content %}
 <div class="card" style="width: 18rem;">
-   <img src="{{url_for('static', filename='images/football.jpg')}}" class="card-img-top" alt="Ja'Den Traylor">
+   <img src="{{ url_for('static', filename='images/basketball.jpeg') }}" class="card-img-top" alt="Ja'Den Traylor">
     <div class="card-body">
         <h5 class="card-title">Ja'Den Traylor</h5>
         <p class="card-text">Recruiter</p>
         <a href="#" class="btn btn-primary">View Profile</a>
     </div>
 </div>
+<h1>Welcome to Trainer Finder</h1>
+    <p>Your one-stop solution for finding the best trainers.</p>
+<body style="background-color: #0751e6;"></body>
+ 
+    <div class="row text-center">
+        <div class="col-md-3 col-sm-6 mb-4">
+            <img src="{{ url_for('static', filename='images/workout1.jpeg') }}" class="img-fluid rounded" alt="Trainer 1">
+            <p class="mt-2">Trainer 1</p>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+            <img src="{{ url_for('static', filename='images/workout2.jpeg') }}" class="img-fluid rounded" alt="Trainer 2">
+            <p class="mt-2">Trainer 2</p>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+            <img src="{{ url_for('static', filename='images/workout3.jpeg') }}" class="img-fluid rounded" alt="Trainer 3">
+            <p class="mt-2">Trainer 3</p>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+            <img src="{{ url_for('static', filename='images/workout4.jpeg') }}" class="img-fluid rounded" alt="Trainer 4">
+            <p class="mt-2">Trainer 4</p>
+        </div>
+    </div>
+
+</div>
+
 {% endblock %}
+
+
+  
+
+
+{% block footer %}
+<footer class="bg-dark text-light text-center py-3">
+    <p>&copy; 2026 Trainer Finder. All rights reserved.</p>
+</footer>
+{% endblock %}
+
