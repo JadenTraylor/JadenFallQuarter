@@ -55,16 +55,14 @@ An If-Statement is a command that is only excecuted if somehting specific happen
 
 
 Nahum - What is a Variable? What defines a 'good' and 'bad' name for a variable? Give an example.
-
+A variable is a named container that stores data in a program. A good variable name is clear, descriptive, and easy to understand, such as student_score or total_price. A bad variable name is unclear, too short, or breaks naming rules, such as x, 2score, or my age.
 A variable is a container for data, that can be used later. A good variable is one that has a name thats clear and makes sense for the data inside, whereas a bad variable would have a nonclear name that doesn't make sense for the data inside. An example of a good variable would be 'points = 4' as the name is clear and make sense for its inside data, a bbad one would be 'stats = brandon', its a bad variable due to it's name not matching the inside data.
 
 Xavier - What is a Function? When is it useful to use them?
-
+A function is a reusable block of code that performs a specific task. 
 A pre-made set of code that you can re-use.
 
 Maximus - What is a Loop? Define both a For-Loop and a While-Loop.
-A loop is a control structure that reapeats block of instructions until specfic condittion is met
-
 A for loop is a control flow statement in coding that allows a specfic block of code to be excuted repeadlty, A while loop is a control flow statment that repeadlty excutes a block of code as long as specified boolean ondition remains true
 
 Jeffrey - What is a Bug? What does it mean to Debug your code? Give an example of a type of bug/error that can occur in code. A bug is a probelm in a code that can be big or small, its called a bug because a mans device was not woring and it turned out to have a literal bug in it. A common bug could be putting the same thing twice but not the same same. For example if you put class:english  you have to put it EXACTLY like that, you can't put class:English.
@@ -72,8 +70,10 @@ Jeffrey - What is a Bug? What does it mean to Debug your code? Give an example o
 Isaiah - What is a Class? What is an Object?
 
 Tay - What is a Library?
+A library is a collection of pre-written code that programmers can use to perform common tasks without writing everything from scratch.
 
 Braylen - What is a List? What are the rules surrounding a list?
+A list is a data structure used to store multiple values in a single variable. Lists are written using square brackets with items separated by commas, and each item has an index that starts at 0. Lists can hold different types of data and are changeable, meaning items can be added, removed, or updated.
 
 Jarmuari - What are the Arithmetic Operators? What do each do? Write a sample line of code that uses one of these operators
 
@@ -90,13 +90,13 @@ My definiton: giving the Operator there symbols with in the code and eqautions.
 Ja'Den - What is Version Control? What version control system have we been using? Why is version control useful? Version control is a system that records changes to files over time so that specific versions can be recalled later. A Version Control system we uses it github. Version Control is useful because it keeps a history of changes.
 
 Joseph - What is Syntax? Given an example of proper Python syntax for creating a variable. Now do it using wrong Python syntax.
+Syntax is the set of rules that tell a programming language how code must be written. In Python, correct syntax for creating a variable is age = 18. An example of incorrect Python syntax is 18 = age, which causes an error because values cannot be assigned to numbers.
 
 Darren - What is a Programming Language? Why do multiple programming languages exist? Give 5 examples of programming Languages.
-
-Darren- 5 different programing languages are Java, JavaScript, python, switft, python, C++. A programing language is a  way for humans to write instructions that a computer can understand and  to perform tasks, such as solving problems, running apps. Having many languages lets programmers choose the one that best fits the job. For example two different languages are python and java script. Python focuses more on data and automation while JavaScript focuses on interactive websites.
+ 5 different programing languages are Java, JavaScript, python, switft, python, C++. A programing language is a  way for humans to write instructions that a computer can understand and  to perform tasks, such as solving problems, running apps. Having many languages lets programmers choose the one that best fits the job. For example two different languages are python and java script. Python focuses more on data and automation while JavaScript focuses on interactive websites.
 
 Walter - What is a Comment? Are comments mandatory in code? Why do programmers use them? Write a comment for this line of python code explaining what the code is doing --> myName = "Devon"
-
+A comment is text in a program that is ignored by the computer and used to explain code. Comments are not mandatory, but programmers use them to make code easier to understand and read.
 
 
 
@@ -133,4 +133,4 @@ inheritance: Reuse code from another class
 polymorphism: Same action name, different behavior
 
 Kauri - What are the Comparison Operators? What do each of them mean? What is the Assignment Operator? What does it do?
-Comparison Operators are used to compare two values
+Comparison operators are used to compare two values and return true or false. Unlike comparison operators, the assignment operator does not compare values, it simply gives a variable a value. 
